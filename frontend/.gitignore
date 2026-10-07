@@ -31,3 +31,6 @@ yarn-error.log*
 /src/components/SalonServices.tsx
 /src/components/ServicesSelect.tsx
 /src/components/VideoBanner.tsx
+
+# PDFs
+*.pdf
