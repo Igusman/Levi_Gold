@@ -1,0 +1,33 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Unused components
+/src/components/ActionModal.tsx
+/src/components/ImageCarousel.tsx
+/src/components/MobileMenu.tsx
+/src/components/ProtectedRoute.tsx
+/src/components/RescheduleModal.tsx
+/src/components/SalonServices.tsx
+/src/components/ServicesSelect.tsx
+/src/components/VideoBanner.tsx
